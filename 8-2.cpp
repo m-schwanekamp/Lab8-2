@@ -14,7 +14,7 @@ int main(void) {
         cout << "Enter a string or Q to quit: ";
         getline(cin, input);
         if (input == "Q") break;
-        count = countVowel(str);
+        count = countVowel(input);
         cout << "Vowel count: " << count << endl;
     }
     return 0;
